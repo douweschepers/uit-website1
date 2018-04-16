@@ -115,7 +115,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   margin-top: 0;
   text-transform: uppercase;
   font-weight: 700;
-  color: #333;
+  color: #213F92;
   position: relative;
 }
 
@@ -125,7 +125,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .section-header .section-subtitle {
   margin-top: 15px;
-  color: #333;
+  color: #213F92;
   font-size: 14px;
   font-weight: 400;
 }
@@ -134,7 +134,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   margin: auto;
   width: 70px;
   position: relative;
-  border-top: 2px solid #213F92;
+  border-top: 2px solid #ACD432;
   margin-top: 15px;
 }
 
@@ -172,9 +172,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-common:hover {
-  color: #fff;
-  background: #33b391;
-  border-color: #33b391;
+  color: #213F92;
+  background: #ACD432;
+  border-color: #213F92;
   transition: all .50s ease-in-out;
   -moz-transition: all .50s ease-in-out;
   -webkit-transition: all .50s ease-in-out;
@@ -427,6 +427,7 @@ button:focus {
 
 #hero-area .contents h1 {
   color: #fff;
+  padding:15px 0px;
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 25px;
@@ -500,7 +501,7 @@ button:focus {
 }
 
 .top-nav-collapse .navbar-nav .nav-link.active {
-  color: #FFF877 !important;
+  color: #fff !important;
 }
 
 .indigo {
@@ -903,10 +904,10 @@ button:focus {
 .pricing-table .pricing-details h2 {
   font-size: 26px;
   font-weight: 700;
-  color: #333;
+  color: #213F92;
   margin-bottom: 20px;
   text-transform: uppercase;
-  background: #f1f1f1;
+  background: #ACD432;
   padding: 30px 0;
 }
 
@@ -1274,8 +1275,12 @@ footer {
 .first{
 	float: left;
 	width: 50%;
+	padding-right: 20px;
 }
 .second{
 	float: left;
 	width: 50%;
+	padding-left: 25px;
 }
+
+
