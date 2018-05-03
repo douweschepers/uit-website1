@@ -163,6 +163,12 @@
    Page Loader
    ========================================================================== */
   $('#loader').fadeOut();
-
+  console.log("joe");
+  
+  if ($("#indigo").css('background')=="transparent") {
+	  console.log("ja");
+	  document.getElementsById("logoNav").style.diplay = "inline";
+  };
+  
 }(jQuery));
 
